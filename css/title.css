@@ -1,0 +1,58 @@
+#title {
+  
+}
+#title .wrap {  
+  max-width: 1903px;
+  height: 100%;
+  padding: 0;
+}
+
+#title .wrap .witem {  
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#title .wrap .witem:not(:first-child){
+  display: none;
+}
+#title .wrap .witem1 {  
+  background-image: url(../img/title1.jpg);
+}
+#title .wrap .witem2 {  
+  background-image: url(../img/title2.jpg);
+}
+#title .wrap .witem3 {  
+  background-image: url(../img/title3.jpg);
+}
+#title .wrap .witem4 {  
+  background-image: url(../img/title4.jpg);
+}
+#title .wrap .witem5 {  
+  background-image: url(../img/title5.jpg);
+}
+#title .wrap .witem6 {  
+  background-image: url(../img/title6.jpg);
+}
+#title .wrap .witem a {  
+  width: 1760px;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+  /*! display: flex; */
+  /*! flex-direction: column; */
+}
+#title .wrap .witem a h2 {  
+  padding: 20px 0;
+  font-size: 80px;
+  font-weight: bold;
+  width: fit-content;
+}
+#title .wrap .witem a h2 span {  
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#title .wrap .witem a p {  
+  padding: 10px 0;
+  width: fit-content;
+}

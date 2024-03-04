@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빈폴 beanpole</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!--  -->
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(window).scrollTop()>$("header").height()){
+                    //윈도우의 scrollTop 위치값이 ...보다 크다면
+                    $("header").addClass("headerD");
+                    $("header .wrap h1 a").addClass("textB");
+                    $("header .wrap .gnb li a").addClass("textB");
+                    //header에 클래스를 붙이시오
+                }else{//조건이 안맞는경우 실행함(윈도우의 윈도우의 scrollTop 위치값이 ...보다 작다면 )
+                    $("header").removeClass("headerD");
+                    $("header .wrap h1 a").removeClass("textB");
+                    $("header .wrap .gnb li a").removeClass("textB");
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="wrap flex between">
+            <h1>
+                <a href="">beanpole</a>
+            </h1>
+            <ul class="gnb flex">
+                <li><a href="">HERITAGE</a></li>
+                <li><a href="">BRANDS</a></li>
+                <li><a href="">JOURNAL</a></li>
+                <li><a href="">GOOD ACTIVITY</a></li>
+            </ul>
+            <div class="sublist">
+                <div class="menu1">
+                    <h2 class="hide">HERITAGE</h2>
+                    <ul class="useguide">
+                        <li><a href="">HISTORY</a></li>
+                        <li><a href="">PHILOSOPHY</a></li>
+                        <li>THE ESSENTIAL
+                            <ul class="menu1sub">
+                                <li><a href="">Bicycle Story</a></li>
+                                <li><a href="">Signature Check</a></li>
+                                <li><a href="">Essential Items</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu2">
+                    <h2 class="hide">BRANDS</h2>
+                    <ul class="useguide">
+                        <li><a href="">MEN</a></li>
+                        <li><a href="">LADIES</a></li>
+                        <li><a href="">KIDS</a></li>
+                        <li><a href="">ACCESSORY</a></li>
+                        <li><a href="">GOLF</a></li>
+                    </ul>
+                </div>
+                <div class="menu3">
+                    <h2 class="hide">JOURNAL</h2>
+                    <ul class="useguide">
+                        <li><a href="">BRAND CAMPAIGN</a></li>
+                        <li><a href="">COLLABORATION</a></li>
+                        <li><a href="">STYLE SNAPS</a></li>
+                        <li><a href="">ACCESSORY</a></li>
+                        <li><a href="">CLASSIC MASTERY</a></li>
+                    </ul>
+                </div>
+                <div class="menu4">
+                    <h2 class="hide">GOOD ACTIVITY</h2>
+                    <ul class="useguide">
+                        <li><a href="">GOOD CARE</a></li>
+                        <li><a href="">GOOD CYCLE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title" class="vh100">
+        <div class="wrap titleAni">
+            <div class="witem witem1 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1"><span class="block">BEANPOLE</span>HERITAGE STORY</h2>
+                    <p class="h5">어제, 오늘, 그리고 내일의 이야기를 담은 아카이브 공간입니다.</p>
+                </a>
+            </div>
+            <div class="witem witem2 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1">RE-EDITION BEANPOLE</h2>
+                    <p class="h5">첫 번째 빈폴 아카이빙 컬렉션</p>
+                </a>
+            </div>
+            <div class="witem witem3 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1">BE MY LOVE </h2>
+                    <p class="h5">'프로고백러' 퐁포리</p>
+                </a>
+            </div>
+            <div class="witem witem4 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1">THE HISTOIRY OF <span class="block">GOLF</span></h2>
+                    <p class="h5">목동들이 시작한 놀이, 왕과 귀족을 사로잡다.</p>
+                </a>
+            </div>
+            <div class="witem witem5 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1">INTO THE WINTER</h2>
+                    <p class="h5">겨울을 맞이하는 태도, 빈폴 멘 새로운 룩 바로보기 </p>
+                </a>
+            </div>
+            <div class="witem witem6 flex column align-center center">
+                <a href="" class="block">
+                    <h2 class="h1">GOOD CARE</h2>
+                    <p class="h5">좋은 옷을 더 오래 입을 수 있도록</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 메인영역 -->
+    <main>
+        <!-- HERITAGE -->
+        <section id="heritage" class="vh100">
+            <div class="wrap flex column align-center center">
+                <h2 class="h2">HERITAGE</h2>
+                <p>빈폴이 가진 오랜 역사, <span class="block">그리고 변함없는 빈폴의 가치</span></p>
+                <ul>
+                    <li><a href="">HISTORY</a></li>
+                    <li><a href="">PHILOSOPHY</a></li>
+                    <li><a href="">THE ESSENTIAL</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- BRAND -->
+        <section id="brand" class="vh100">
+            <div class="wrap flex column center align-center">
+                <h2 class="h2">BRAND</h2>
+                <p>시대를 아우르는 클래식, <span class="block">타임리스 캐주얼 웨어</span></p>
+                <ul>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">LADIES</a></li>
+                    <li><a href="">KIDS</a></li>
+                    <li><a href="">ACCESSORY</a></li>
+                    <li><a href="">GOLF</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- JOURNAL -->
+        <section id="journal" class="vh100">
+            <div class="wrap flex column center align-center">
+                <h2 class="h2">JOURNAL</h2>
+                <p>우리가 빈폴을 입는 이유</p>
+                <ul>
+                    <li><a href="">BRAND CAMPAIGN</a></li>
+                    <li><a href="">COLLABORATION</a></li>
+                    <li><a href="">STYLE SNAPS</a></li>
+                    <li><a href="">CLASSIC MASTERY</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- GOOD ACTIVITYL -->
+        <section id="good" class="vh100">
+            <div class="wrap flex column center align-center">
+                <h2 class="h2">GOOD ACTIVITY</h2>
+                <p>좋은 옷을 더 오래 입는 방법</p>
+                <ul>
+                    <li><a href="">GOOD CARE</a></li>
+                    <li><a href="">GOOD CYCLE</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- store -->
+        <section id="store">
+            <div class="wrap">
+                <h2 class="h5">STORE</h2>
+                <ul>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">LADIES</a></li>
+                    <li><a href="">KIDS</a></li>
+                    <li><a href="">ACCESSORY</a></li>
+                    <li><a href="">GOLF</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <div class="wrap">
+            <h1>BEANPOLE</h1>
+            <ul>
+                <li>삼성물산 (주) 패션부문</li>
+                <li>서울특별시 강남구 남부순환로 2806(도곡동)</li>
+                <li>대표 : 고정석 외 2명 | 사업자 등록번호 : 101-85-43600</li>
+            </ul>
+            <p class="capy">COPYRIGHT 2023 HANWHA FOUNDATION ORG. ALL RIGHTS RESERVED.</p>
+            <a href="" class="icon">instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+section#heritage {  
+  background-image: url(../img/heritage.jpg);
+}
+section#heritage .wrap {  
+  color: white;
+}
+section#heritage .wrap h2 {
+  
+  width: 100%;
+  font-size: 56px;
+  font-weight: initial;
+}
+section#heritage .wrap p {  
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+section#heritage .wrap p span {
+  
+}
+section#heritage .wrap ul {  
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+section#heritage .wrap ul li {
+  
+}
+section#heritage .wrap ul li:not(:last-child)::after{
+  content: "";
+  border-left: 1px solid;
+  padding-left: 20px;
+}
+section#heritage .wrap ul li a {  
+  color: white;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+section#brand {  
+  background-color: #ccc;
+  background-image: url(../img/brand.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section#brand .wrap {
+  
+}
+section#brand .wrap h2 {  
+  width: 100%;
+  font-weight: initial;
+}
+section#brand .wrap p {  
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 2;
+}
+section#brand ul {  
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  position: relative;
+}
+section#brand ul li {
+  
+}
+section#brand ul li:nth-child(4){  
+  width: 100%;
+}
+section#brand ul li:nth-child(5){  
+  position: absolute;
+  top: 34px;
+  left: 120px;
+}
+section#brand ul li a {  
+  padding-right: 20px;
+  line-height: 34px;
+}
+section#brand ul li:nth-child(2) a{
+  border-left: 1px solid;
+  padding-left: 20px;
+}
+section#brand ul li:nth-child(3) a{
+  border-left: 1px solid;
+  padding-left: 20px;
+}
+section#brand ul li:nth-child(5) a{
+  border-left: 1px solid;
+  padding-left: 20px;
+}
+
+section#journal {  
+  background-image: url(../img/journal.jpg);
+}
+section#journal .wrap {  
+  color: white;
+  align-items: flex-end;
+}
+section#journal .wrap h2 {  
+  width: 527px;
+}
+section#journal .wrap p {  
+  font-size: 20px;
+  width: 527px;
+  margin-top: 30px;
+}
+section#journal ul {  
+  display: flex;
+  flex-wrap: wrap;
+  width: 527px;
+  margin-top: 40px;
+}
+section#journal ul li {
+  
+}
+section#journal ul li a {  
+  color: white;
+  font-size: 20px;
+  line-height: 34px;
+  padding-right: 30px;
+}
+section#journal ul li:nth-child(even) a{
+  content: "";
+  border-left: 1px solid;
+  padding-left: 30px;
+}
+section#good {  
+  background-image: url(../img/activity.jpg);
+}
+section#good .wrap {  
+  color: white;
+  align-items: initial;
+}
+section#good .wrap h2 {
+  
+}
+section#good .wrap p {  
+  margin-top: 30px;
+  font-size: 20px;
+}
+section#good ul {
+  
+  display: flex;
+  margin-top: 30px;
+}
+section#good ul li {
+  
+}
+section#good ul li a {  
+  color: white;
+  font-size: 20px;
+}
+section#good ul li:nth-child(1){
+  content: "";
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+section#good ul li:nth-child(2){
+  
+  padding-left: 20px;
+}
+section#store{
+  height: 200px;
+  background-color: #EBEBE6;
+}
+section#store .wrap{  
+  max-width: 1760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+section#store .wrap h2{  
+  font-weight: bold;
+}
+section#store .wrap ul{  
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #CFCFCF;
+  padding-bottom: 20px;
+}
+section#store .wrap ul li{
+  
+}
+section#store .wrap ul li a{  
+  padding-right: 20px;
+  color: #4d4d4d;
+  font-size: 14px;
+}
